@@ -1,0 +1,132 @@
+.container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+margin-top: 50px;
+}
+
+img{
+    width: 500px;
+    height: 500px;
+  border: 6px dashed black;
+  padding: 6px;
+}
+.btns{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    margin-top: 30px;
+ 
+}
+
+button{
+    border-radius: 5px;
+    padding: 5px;
+    background-color: beige;
+    font-size: 15px;
+
+}
+
+.task2{
+    position: absolute;
+    position: absolute;
+    top: 95%;
+    right: 2%;
+    background-color: green;
+    font-weight: bold;
+    color: white;
+}
+/* task2 */
+.container2{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+.input{
+    padding: 10px;
+    margin-right: 5px;
+    border-radius: 5px;
+}
+.add{
+    padding: 10px;
+    font-weight: bold;
+}
+
+table{
+    
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    
+   
+    
+}
+table ,th, tr,td{
+    border: 1px solid black;
+    padding: 2px;
+    margin: 2px;
+}
+
+th{
+    background-color: beige;
+}
+/* task3 */
+.header{
+    background-color:#444;
+    padding: 10px;
+    margin-bottom: 25px;
+}
+.head2{
+    background-color: aliceblue;
+    padding: 8px;
+    margin-left: 5px;
+    margin-right: 5px;
+    border-radius: 6px;
+}
+.header p{
+    color: rgb(183, 179, 179);
+    margin-left: 5px;
+    margin-right: 5px;
+}
+#span1{
+    color: grey;
+    font-weight: bold;
+    font-size: 18px;
+}
+.header input{
+    padding: 5px;
+    border-radius: 12px;
+    width: 250px;
+    margin-bottom: 10px;
+}
+.header a{
+    color: white;
+    text-decoration: none;
+    font-size: 15px
+}
+
+.btns-cont button{
+    margin-bottom: 20px;
+    background-color: #efefef;
+    text-decoration: none;
+    border: none;
+    border-radius: 0%;
+    padding: 10px 25px;
+    font-weight: bold;
+    cursor: pointer;
+}
+.change{
+    background-color: green !important;
+    
+}
+.result{
+    background-color: #444;
+    padding: 10px;
+    border-radius: 6px;
+    margin-left: 20px;
+    margin-right: 20px;
+    color: white;
+}

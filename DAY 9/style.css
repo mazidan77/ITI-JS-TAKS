@@ -1,0 +1,33 @@
+.bg{
+    background-color: blue;
+}
+ul{
+    border: 2px solid black;
+   
+}
+li{
+   padding: 2px;
+   margin: 0;
+   color: blue;
+}
+button{
+    margin: 2px;
+    background-color: rgb(12, 157, 180);
+    border: none;
+    cursor: pointer;
+    border-radius: 3px;
+}
+.container{
+    background-color: rgba(52, 50, 50, 0.814);
+    padding: 6px;
+}
+
+/* .button-clicked {
+    background-color: #cb1010;
+  } */
+  /* button:hover{
+    background-color: aqua;
+  } */
+  .active{
+    background-color: brown;
+  }

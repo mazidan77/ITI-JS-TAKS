@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+  <link rel="stylesheet" href="style.css">
+<script>
+          if(!window.mathml){
+            var element = document.createElement('link')
+            element.href = "mathml.css"
+            element.rel = "stylesheet"
+            document.head.appendChild(element)
+        }
+</script>
+
+
+    <style>
+        text{
+            font-weight: bold;
+            font-size: 20px;
+           
+        }
+        math{
+            color: rgb(0, 149, 255);
+            font-size: 20px;
+            font-weight: bold;
+          
+        }
+    </style>
+
+</head>
+
+<body>
+  
+       
+    <svg width="600" height="600" >
+  
+        <polygon fill="red" points="300,0 300,500 0,500"/>
+        <text x="150" y="520">b </text>
+        <text x="310" y="250">a </text>
+        <text x="130" y="250">c</text>
+    </svg>
+       
+    <math>
+        <mi>c</mi>
+        <mo>=</mo>
+        <msqrt>
+                <msup>
+                    <mi>a</mi>
+                    <mn>2</mn>
+                </msup>
+                    <mo>+</mo>
+                    <msup>
+                    <mi>b</mi>
+                    <mn>2</mn>
+                </msup>
+        </msqrt>
+    </math>
+
+    <canvas width="500" height="500" id="canvas">
+
+    </canvas>
+
+
+    <script src="main.js"></script>
+</body>
+</html>

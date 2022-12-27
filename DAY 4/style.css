@@ -1,0 +1,19 @@
+.header{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+input{
+    
+    padding: 15px;
+    border: 1px solid green;
+    border-radius: 6px;
+}
+p{
+    text-align: center;
+    font-weight: bold;
+    font-size: 18px;
+    color: blue;
+ 
+}
